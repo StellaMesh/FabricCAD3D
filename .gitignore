@@ -1,0 +1,33 @@
+# 编译输出目录
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# 忽略 vcpkg 目录
+/vcpkg
+
+# CMake 生成的临时文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.sln
+*.vcxproj*
+*.o
+*.obj
+*.pdb
+*.idb
+
+# Visual Studio Code 配置文件
+.vscode/
+# 保留特定文件
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# 操作系统生成的临时文件
+Thumbs.db       
+desktop.ini      
